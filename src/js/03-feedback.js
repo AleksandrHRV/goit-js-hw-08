@@ -35,10 +35,10 @@ function onSubmitBtn(e) {
   }
 
   if (dataLocalKey.email !== undefined) {
-    console.log(`Email: ${dataLocalKey.email}`);
+    console.log(`Email ${dataLocalKey.email}`);
 
     if (dataLocalKey.message !== undefined) {
-      console.log(`Message: ${dataLocalKey.message}`);
+      console.log(`Message ${dataLocalKey.message}`);
     }
 
     dataLocalKey = {};
